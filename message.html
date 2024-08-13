@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Messages | LMS</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <h1>Messages</h1>
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="registration.html">Register</a></li>
+                <li><a href="admin-dashboard.html">Admin Dashboard</a></li>
+                <li><a href="instructor-dashboard.html">Instructor Dashboard</a></li>
+                <li><a href="student-dashboard.html">Student Dashboard</a></li>
+                <li><a href="course-management.html">Course Management</a></li>
+                <li><a href="user-management.html">User Management</a></li>
+                <li><a href="content-upload.html">Content Upload</a></li>
+                <li><a href="quiz.html">Quiz</a></li>
+                <li><a href="progress-tracking.html">Progress Tracking</a></li>
+                <li><a href="discussion-forum.html">Discussion Forum</a></li>
+                <li><a href="message.html">Messages</a></li>
+                <li><a href="settings.html">Settings</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <!-- Main Content Section -->
+    <main class="container">
+        <section class="message-container">
+            <div class="message-list">
+                <h2>Inbox</h2>
+                <ul>
+                    <!-- Example message items -->
+                    <li>
+                        <div class="message-header">
+                            <span class="message-sender">Instructor ROSH</span>
+                            <span class="message-date">August 13, 2024</span>
+                        </div>
+                        <p class="message-body">Hello, don't forget to review the new course materials.</p>
+                        <a href="#reply" class="reply-link">Reply</a>
+                    </li>
+                    <!-- Add more message items here -->
+                </ul>
+            </div>
+            
+            <div class="message-compose">
+                <h2>Compose New Message</h2>
+                <form id="message-form">
+                    <label for="recipient">To:</label>
+                    <input type="text" id="recipient" name="recipient" placeholder="Recipient's Name" required>
+                    
+                    <label for="message-body">Message:</label>
+                    <textarea id="message-body" name="message-body" rows="5" placeholder="Write your message here..." required></textarea>
+                    
+                    <button type="submit">Send</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    
+    <!-- Footer Section -->
+    <footer class="footer">
+        <p>&copy; 2024 Learning Management System. All rights reserved.</p>
+    </footer>
+</body>
+</html>
